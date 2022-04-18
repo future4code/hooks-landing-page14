@@ -1,0 +1,91 @@
+body{
+margin: 10px;
+border: 2px solid;
+
+}
+
+
+.Frase{
+color: red;
+
+}
+
+.Logotipo,img{
+ max-width:200px;
+ max-height:100px;
+ width: auto;
+ height: auto;
+ 
+}
+
+.buttom{
+display:block;
+margin-left:auto;
+width:170px;
+height:25px;
+
+}
+
+.Caixa{
+border: 20px;
+margin:25px auto;
+margin: top 6px;
+
+}
+
+nav,li{
+float: right;
+margin-right: 20px;
+margin-left: 20px;
+
+}
+
+
+
+.Cores{
+background-color:yellow;
+height: 20px;
+}
+
+.Corbotão{
+background-color:yellow;
+height: 26px;
+
+}
+
+.Cores{
+color:red; 
+}
+
+header{
+    background-color:yellow;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    padding:  20px;
+    grid-column: 1 / -1; 
+ }
+
+ .FraseCima,h1{
+color:red;
+
+
+ }
+ 
+@media screen and (max-width:380px){
+    body,main,footer{
+  
+}
+
+footer{
+position:relative;
+top:100%;
+}
+}
+
+
+ 
+
+
+
+  
