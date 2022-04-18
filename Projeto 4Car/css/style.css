@@ -5,13 +5,12 @@ body{
 
     height: 300px;
     width: 100%;
-   
     
+   
 }
 
 .logo img{
-    padding-top: 0;
-    margin-top: 0;
+    margin-left: 100px;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -27,7 +26,7 @@ body{
     list-style: none;
     height: 100px;
     line-height: 100px;
-    margin-right: 50px;
+    margin-right: 60px;
    
 }
 
@@ -76,8 +75,9 @@ margin-left: 20px;
     height: 40px;
     width: 300px;
     border-radius: 10px;
-    margin-left: 350px;
+    margin-left: 360px;
     padding-left: 10px;
+    text-align: center;
 
 }
 
@@ -114,6 +114,55 @@ text-align: center;
 
 }
 
+
+@media(max-width:600px){
+
+    .topo{
+        height: 450px;
+        width: 100%;
+    }
+    .topo input{
+
+        width: 77%;
+        margin-left: 20px;
+        margin-top: 10px;
+
+    }
+    .topo select{
+
+        margin-left: 20px;
+        width: 80%;
+        float: left;
+
+    }
+
+
+    .botao{
+
+        
+        margin-left: 20px;
+
+    }
+    .logo img{
+        margin:0;
+        width: 40px;
+        height: 40px;
+        
+        }
+    .topocenter img{
+
+            width: 100%; 
+            text-align: center;
+            
+            
+        }
+
+
+
+}
+
+
+/*-------------------------------------------TOPO-----------------------------------*/
 
 .confira{
 
@@ -168,6 +217,52 @@ main{
     max-width: 100%;
     background-color: green;
 }
+
+
+@media(max-width:600px){
+
+    main{
+
+        display: flex;
+        flex-direction: column;
+        column-gap:20px ;
+        height: 100%;
+        width: 100%;
+        
+    
+    
+    }
+    
+    .card{
+        
+        display: flex;
+        margin-top: 50px;
+        width: 100%;
+        height: 100%;
+        margin: 5px;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+    
+}
+
+.confira{
+    width: 80%;
+    height: 60px;
+    background-color: rgb(212, 212, 22);
+    padding: 10px;
+    margin: auto;
+    
+
+}
+
+
+}
+
+
+
+
 .meio{
 
     margin-top: 200px;
@@ -176,6 +271,7 @@ main{
     background-color: black;
 
 }
+
 .texto h1{
 
     color: green;
@@ -249,8 +345,40 @@ main{
 
 .soc-img{
 width: 150px;
-height: 50px;
+height: 60px;
 }
+
+
+
+
+@media (max-width:600px){
+
+    .imagem{
+
+       display: none;
+    
+    }
+    
+    .imagem img{
+    
+       display: none ;
+    }
+    .texto-app{
+
+        height: 400px;
+        width: 100%;
+        text-align: center;
+        
+    
+    }
+
+}
+
+
+
+/*-------------------------------------------------meio do site------------------------------*/
+
+
 
 footer{
 
@@ -311,3 +439,12 @@ width: 400px;
     font-size: 15px;
 }
 
+@media(max-width:600px){
+
+    footer{
+
+
+        margin-top: 50px;
+    }
+
+}
