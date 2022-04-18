@@ -2,11 +2,11 @@ Link do Surge:https://awesome-profit.surge.sh/
 
 Nome Projeto 4Car 
 Participantes do projeto :
-Rafael Santos: fez o meio do site.
+Rafael Santos da silva: fez o meio do site.
 
-da silva Ivanilton dias fez a frente do site 
+Ivanilton dias fez a frente do site.
 
-Pedro Cesar fez a parte de duvidas 
+Pedro Cesar fez a parte de duvidas.
 
 
 oque fazemos é aluguel de carros 
